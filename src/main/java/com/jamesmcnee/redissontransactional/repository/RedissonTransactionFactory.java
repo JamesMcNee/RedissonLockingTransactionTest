@@ -3,7 +3,6 @@ package com.jamesmcnee.redissontransactional.repository;
 import com.jamesmcnee.redissontransactional.RedissonLockingTransactionManager;
 import org.redisson.api.RMap;
 import org.redisson.api.RTransaction;
-import org.redisson.spring.transaction.RedissonTransactionManager;
 import org.springframework.stereotype.Component;
 
 import java.util.HashMap;
